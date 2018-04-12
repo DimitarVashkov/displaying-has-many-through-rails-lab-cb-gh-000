@@ -3,7 +3,7 @@ class Appointment < ActiveRecord::Base
   belongs_to :patient
 
 
-  def time 
+  def time
     appointment_datetime.strftime()
   end
 end

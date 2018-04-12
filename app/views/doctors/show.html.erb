@@ -2,5 +2,5 @@
 
 
 <% @doctor.appointments.each do |app| %>
-<p><%= link_to app.patient.name, patient_path(app.patient) %> | <%= app.appointment_datetime %></p>
+<p><%= link_to app.patient.name, patient_path(app.patient) %> | <%= app.time%></p>
 <% end %>

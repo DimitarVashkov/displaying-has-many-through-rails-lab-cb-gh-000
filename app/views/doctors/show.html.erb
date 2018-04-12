@@ -2,4 +2,5 @@
 
 
 <% @doctor.appointments.each do |app| %>
+<%= link_to app.patient.name
 <% end %>
